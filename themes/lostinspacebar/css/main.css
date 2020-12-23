@@ -1,0 +1,139 @@
+@font-face 
+{
+    font-family: 'Nunito';
+    src: url('/theme/css/fonts/Nunito/Nunito-SemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face 
+{
+    font-family: 'Nunito';
+    src: url('/theme/css/fonts/Nunito/Nunito-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html
+{
+    margin: 0;
+    padding: 0;
+	background-image: url("/theme/images/bg_repeating.png");
+}
+
+body
+{
+    display: flex;
+    font-family: 'Nunito', serif;
+    color: #5a5751;
+    margin: 0;
+    padding: 0;
+    background-image: url("/theme/images/bg_hero_image_shadow.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 138px;
+    min-height: 500px;
+}
+
+h1
+{
+    margin-bottom: 0;
+}
+
+a
+{
+    color: #a01f4d;
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+    color: #dc2365;
+    text-shadow: 1px 1px 0px #5a5751;
+    text-decoration: underline dotted;
+}
+
+.hidden
+{
+    display: none;
+}
+
+#main-container
+{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+
+header
+{
+    padding-left: 225px;
+    background-image: url("/theme/images/bg_hero_image.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    height: 275px;
+}
+
+header .main-logo
+{
+    display: block;
+    width: 375px;
+    height: 75px;
+    background-image: url("/theme/images/bg_main_logo.png");
+    background-repeat: no-repeat;
+}
+
+header .brief
+{
+    font-size: 1.25em;
+    margin-top: 15px;
+}
+
+header .brief .normal-text
+{
+    margin-top: 25px;
+    float:left;
+}
+
+main
+{
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+    clear: right;
+}
+
+main .under-construction
+{
+    display: block;
+    width: 100%;
+    opacity: 0.40;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer .resume-link
+{
+    display: block;
+    background-image: url("/theme/images/bg_aditya_gaddam_footer.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    width: 200px;
+    height: 50px;
+    float: right;
+}
+
+@media only screen and (min-width: 800px) 
+{
+    #main-container
+    {
+        width: 900px;
+    }
+
+    header
+    {
+        padding-left: 375px;
+        background-position-x: 150px;
+    }
+}
