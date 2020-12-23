@@ -9,7 +9,9 @@
   },
   "author": "Aditya Gaddam",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "log-timestamp": "0.3.0",
+    "chokidar": "^3.4.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"

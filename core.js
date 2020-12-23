@@ -17,6 +17,7 @@ class Core
         app.use('/files', express.static(this.filesDir));
         app.use('/theme/images', express.static(this.themeDir + '/images'))
         app.use('/theme/css', express.static(this.themeDir + '/css'))
+        app.use('/theme/js', express.static(this.themeDir + '/js'))
     }
 
     handleRequest(request, response) {
