@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 8080;
+const port = 80;
 const config = require('./config.json');
 const Core = require('./core');
 

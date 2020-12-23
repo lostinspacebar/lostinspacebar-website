@@ -2,9 +2,9 @@
   "name": "lostinspacebar",
   "version": "1.0.0",
   "description": "Simple markdown based website generator",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "npm install && nodemon --legacy-watch --ignore 'data/*'",
+    "start": "npm install && nodemon --legacy-watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aditya Gaddam",
