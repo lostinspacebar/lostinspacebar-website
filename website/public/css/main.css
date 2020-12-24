@@ -58,7 +58,7 @@ a:hover, a:active
     display: none;
 }
 
-#main-container
+#root
 {
     display: block;
     width: 600px;
@@ -126,7 +126,7 @@ footer .resume-link
 
 @media only screen and (min-width: 800px) 
 {
-    #main-container
+    #root
     {
         width: 900px;
     }
