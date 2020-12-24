@@ -4,12 +4,16 @@ services:
   http-service:
     container_name: lostinspacebar-node
     build: .
+    environment:
+      CHOKIDAR_USEPOLLING: "true"
     volumes:
       - ./:/app
       - /app/node_modules
+      - /app/website/node_modules
     working_dir: /app
     ports:
       - 8080:8080
+      - 3000:3000
     networks:
       - lis-net
 networks:

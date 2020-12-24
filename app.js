@@ -3,8 +3,9 @@ require('log-timestamp')
 const express = require('express');
 const app = express();
 const port = 8080;
-const config = require('./config.json');
-const Core = require('./core');
+const path = require('path');
+
+/*
 const chokidar = require('chokidar');
 const exec = require('child_process').exec;
 
@@ -14,13 +15,15 @@ chokidar.watch('.', { ignoreInitial: true, awaitWriteFinish: true, depth: 0 }).o
         exec('touch tmp/restart.txt');
     }
 });
+*/
 
-var core = new Core(app, config, './files', './pages', './themes');
+// Serve any static builds from the SPA build
+app.use(express.static(path.join(__dirname, 'website/build')));
 
-app.get('*', (req, res) => {
-    core.handleRequest(req, res);
+// All other requests go to the index.html from the compiled SPA
+app.get('*', (request, response) => {
+    response.sendFile(path.join(__dirname, 'website/build/index.html'));
 });
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
-});
+app.listen(port);
+console.log('LOST.IN.SPACEBAR backend is up and running.');

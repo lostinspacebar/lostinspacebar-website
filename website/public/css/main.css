@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'Nunito';
-    src: url('/theme/css/fonts/Nunito/Nunito-SemiBold.ttf') format('truetype');
+    src: url('fonts/Nunito/Nunito-SemiBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face 
 {
     font-family: 'Nunito';
-    src: url('/theme/css/fonts/Nunito/Nunito-Light.ttf') format('truetype');
+    src: url('fonts/Nunito/Nunito-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,7 +18,7 @@ html
 {
     margin: 0;
     padding: 0;
-	background-image: url("/theme/images/bg_repeating.png");
+	background-image: url("../images/bg_repeating.png");
 }
 
 body
@@ -28,7 +28,7 @@ body
     color: #5a5751;
     margin: 0;
     padding: 0;
-    background-image: url("/theme/images/bg_hero_image_shadow.png");
+    background-image: url("../images/bg_hero_image_shadow.png");
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 138px;
@@ -68,7 +68,7 @@ a:hover, a:active
 header
 {
     padding-left: 225px;
-    background-image: url("/theme/images/bg_hero_image.png");
+    background-image: url("../images/bg_hero_image.png");
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;
@@ -80,7 +80,7 @@ header .main-logo
     display: block;
     width: 375px;
     height: 75px;
-    background-image: url("/theme/images/bg_main_logo.png");
+    background-image: url("../images/bg_main_logo.png");
     background-repeat: no-repeat;
 }
 
@@ -116,7 +116,7 @@ main .under-construction
 footer .resume-link
 {
     display: block;
-    background-image: url("/theme/images/bg_aditya_gaddam_footer.png");
+    background-image: url("../images/bg_aditya_gaddam_footer.png");
     background-repeat: no-repeat;
     background-position-x: 100%;
     width: 200px;
