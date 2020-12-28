@@ -1,0 +1,7 @@
+{
+    "id": "kabuki",
+    "title": "KABUKI",
+    "description": "a simple cross-platform game engine written using modern C++ and OpenGL principles.",
+    "thumb": "/images/projects/kabuki/thumb_{state}.png",
+    "url": "/projects/kabuki"
+}

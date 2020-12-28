@@ -1,0 +1,1 @@
+Reginald is a Discord bot written in Node.js and provides features like TTS and voice commands with a small sprinkling of AI.

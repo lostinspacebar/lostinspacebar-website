@@ -1,0 +1,2 @@
+KABUKI is a small game engine written with modern C++ and OpenGL principles in mind. 
+Important keywords here are 'small' and 'modern'. There are many great game engines out in the world that are free, freemium or cheap - Godot, Unreal and Unity come to mind. KABUKI is being written by one person to solve nothing, other than a need to learn. This is useful in keeping my scope small. It also lets me spend more time than probably necessary figuring out what the "correct" way to do something is in modern C++ or OpenGL.

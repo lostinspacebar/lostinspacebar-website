@@ -1,0 +1,7 @@
+{
+    "id": "reginald",
+    "title": "Reginald.Bot",
+    "description": "a Discord bot written in Node.js that provides features like TTS and voice commands",
+    "thumb": "/images/projects/reginald/thumb_{state}.png",
+    "url": "/projects/reginald"
+}
