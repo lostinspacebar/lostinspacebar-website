@@ -13,8 +13,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "log-timestamp": "0.3.0",
-    "marked": "^1.2.5",
-    "react-transition-group": "^4.4.1"
+    "marked": "^1.2.5"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
