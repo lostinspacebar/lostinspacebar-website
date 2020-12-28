@@ -16,7 +16,7 @@ export default class ProjectDetailsPage extends Component {
     }
 
     componentDidMount() {
-        fetch(`http://localhost:3000/data/projects/${this.props.match.params.projectId}`)
+        fetch(`${process.env.REACT_APP_API_URL}/projects/${this.props.match.params.projectId}`)
             .then(response => response.json())
             .then(data => this.setState({ projectDetails : data}))
     }

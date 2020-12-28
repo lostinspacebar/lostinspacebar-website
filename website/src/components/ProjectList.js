@@ -12,7 +12,7 @@ export default class ProjectList extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3000/data/projects')
+        fetch(`${process.env.REACT_APP_API_URL}/projects`)
             .then(response => response.json())
             .then(data => this.setState({ projects : data}))
     }
