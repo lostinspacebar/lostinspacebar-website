@@ -153,7 +153,8 @@ h2
     transform: scale(1.0);
     filter: blur(0px);
     opacity: 1.0;
-    transition: all 100ms;
+    transition: all 75ms;
+    will-change: transform, filter, opacity;
 }
 
 .content-transition-exit {
@@ -165,8 +166,9 @@ h2
 .content-transition-exit-active {
     transform: scale(1.2);
     filter: blur(20px);
-    transition: all 100ms;
+    transition: all 75ms;
     opacity: 0.0;
+    will-change: transform, filter, opacity;
 }
 
 .main-content-transition-group {
