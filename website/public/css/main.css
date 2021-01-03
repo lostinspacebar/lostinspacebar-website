@@ -143,6 +143,10 @@ h2
     margin: 0;
 }
 
+.loading-spinner {
+    padding: 20px;
+}
+
 .content-transition-enter {
     transform: scale(0.9);
     filter: blur(5px);

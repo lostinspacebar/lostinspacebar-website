@@ -3,5 +3,6 @@
     "title": "OpenKinect",
     "description": "bindings in C# to use version 1 Kinect devices on PCs via libfreenect",
     "thumb": "/images/projects/openkinect/thumb_{state}.png",
-    "url": "/projects/openkinect"
+    "url": "/projects/openkinect",
+    "websiteUrl": "https://openkinect.org/wiki/Main_Page"
 }

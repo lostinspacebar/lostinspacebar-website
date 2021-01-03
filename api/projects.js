@@ -27,7 +27,7 @@ router.get('/:projectId', (request, response) => {
     const renderedMainBody = marked(mainBodyMarkdown);
     const projectInfo = require(path.join(projectsDir, request.params.projectId, 'project.json'));
     var projectDetails = {
-        "logo": `/images/projects/${request.params.projectId}/details_logo.png`,
+        "logo": `/images/projects/${request.params.projectId}/thumb_hover.png`,
         "brief": renderedBrief,
         "body": renderedMainBody
     }
