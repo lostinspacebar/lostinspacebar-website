@@ -1,0 +1,8 @@
+{
+    "id": "website",
+    "title": "Website",
+    "description": "the lost.in.spacebar website you are viewing right now, made in React",
+    "thumb": "/images/projects/website/thumb_{state}.png",
+    "url": "/projects/website",
+    "githubUrl": "https://github.com/lostinspacebar/lostinspacebar-website"
+}
